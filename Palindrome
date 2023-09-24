@@ -1,0 +1,7 @@
+def isPalindromicNumber(n):
+    number = str(n)
+    while len(number) >= 2:
+        if number[0] != number[-1]:
+            return False
+        number = number[1:-1]
+    return True
