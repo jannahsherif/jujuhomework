@@ -1,0 +1,6 @@
+def containsOddDigits(x):
+    while(abs(x)>0):
+        if(abs(x)%2==1):
+            return True
+        x= x//10
+    return False
